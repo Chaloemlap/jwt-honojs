@@ -9,7 +9,7 @@ const user = {
   'password': '1234'
 }
 
-const SECRET = 'Test'
+const SECRET = 'Test' // plain text for example, not recomended for production
 const ALGORITHM = 'HS512'
 
 app.post('/login', async (c: Context) => {
